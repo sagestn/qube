@@ -1,0 +1,14 @@
+{
+    "name": "Qube",
+    "version": "1.0.0",
+    "author": "maka",
+    "summary": "Dark is not metal",
+    "paths": {
+        "index": "/skin/index.html",
+        "post": "/skin/post.html",
+        "about": "/skin/about.html",
+        "header": "/skin/header.html",
+        "footer": "/skin/footer.html",
+        "nav": "/skin/nav.html"
+    }
+}

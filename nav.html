@@ -1,0 +1,10 @@
+<nav>
+    <h3>NEMO Test Skin</h3>
+    {{if (eq .IsNotIndex true)}}
+    <a href="../index.html">Posts</a>
+    <a href="../about.html">About</a>
+    {{else}}
+    <a href="index.html">Posts</a>
+    <a href="about.html">About</a>
+    {{end}}
+</nav>

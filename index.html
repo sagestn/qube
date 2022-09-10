@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    {{.Head.Header}}
+    <body>
+        {{.Nav.Navbar}}
+        
+        <div class="post-list">
+        <hr class="post-line" />
+        <h2>Posts</h2>
+        <ul>
+            {{range $val := .Indexs}}
+            <li>
+            <div class="post-item">
+                <h3><a href="page/{{$val.Path}}" class="post-link">{{$val.Title}}</a></h3>
+                <q>{{$val.Summary}}</q>
+            </div>
+            </li>
+            {{end}}
+        </ul>
+        </div>
+        {{.Foot.Footer}}
+    </body>
+</html>
