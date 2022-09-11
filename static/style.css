@@ -1,11 +1,11 @@
 body {
     background-color: #221f1f;
-    color: #ffeeee;
+    color: #ffffff;
     margin: 0;
 }
 
 a {
-    color: #ffeeee;
+    color: #ffffff;
 }
 
 nav {
@@ -42,7 +42,7 @@ footer {
 }
 
 .post-info {
-    color: #ffeeff;
+    color: #ffffff;
     width: 50%;
     margin: auto;
 }
