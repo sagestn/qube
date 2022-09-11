@@ -2,9 +2,11 @@
     <meta charset="utf-8">
     {{if (eq .IsNotIndex true)}}
     <link href="../res/skin/style.css" rel="stylesheet">
+    <title>{{.PostName}} - {{.BlogName}}</title>
     {{else}}
     <link href="res/skin/style.css" rel="stylesheet">
+    <title>{{.BlogName}}</title>
     <!-- FCCC means Fluffy Cream Chesse Cake -->
     {{end}}
-    <title>NEMO</title>
+    
 </head>
