@@ -1,7 +1,7 @@
 {
     "name": "Qube",
     "version": "1.0.0",
-    "author": "maka",
+    "author": "Ocellaris Dev",
     "summary": "Dark is not metal",
     "paths": {
         "index": "/skin/index.html",
