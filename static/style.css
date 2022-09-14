@@ -111,3 +111,7 @@ footer {
         width: 50%;
     }
 }
+
+.content-image {
+    max-width: 50%;
+}
