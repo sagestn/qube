@@ -1,13 +1,15 @@
-<head>
+<head lang="auto">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{if (eq .IsNotIndex true)}}
+    <meta property="og:title" content="{{.PostName}} - {{.BlogName}}">
     <link href="../static/style.css" rel="stylesheet">
     <title>{{.PostName}} - {{.BlogName}}</title>
     {{else}}
+    <meta property="og:title" content="{{.BlogName}}">
     <link href="static/style.css" rel="stylesheet">
     <title>{{.BlogName}}</title>
     <!-- FCCC means Fluffy Cream Chesse Cake -->
     {{end}}
-    
+
 </head>
