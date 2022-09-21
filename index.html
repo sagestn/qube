@@ -11,13 +11,16 @@
             {{range $val := .Indexs}}
             <li>
             <div class="post-item">
-                <h3><a href="page/{{$val.Path}}" class="post-link">{{$val.Title}}</a></h3>
+                <h3 class="post-link"><a href="page/{{$val.Path}}" class="post-link">{{$val.Title}}</a></h3>
+                <p class="index-timestamp">Created {{$val.Timestamp.Year}}. {{$val.Timestamp.Month}}. {{$val.Timestamp.Day}}</p>
                 <q>{{$val.Summary}}</q>
             </div>
             </li>
             {{end}}
         </ul>
         </div>
+        <a href="{{.PrevPage}}" class="index-pglink">[prev]</a>
+        <a href="{{.NextPage}}" class="index-pglink">[next]</a>
         {{.Foot.Footer}}
     </body>
 </html>

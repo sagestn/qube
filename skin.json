@@ -10,5 +10,8 @@
         "header": "/skin/header.html",
         "footer": "/skin/footer.html",
         "nav": "/skin/nav.html"
+    },
+    "config": {
+        "indexnum": 5
     }
 }
