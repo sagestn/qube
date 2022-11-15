@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    {{.Head.Header}}
+    <body>
+        {{.Nav.Navbar}}
+        
+        <div class="post-list">
+        <hr class="post-line" />
+        <h2>Category</h2>
+        <ul>
+            {{range $val := .Indexs}}
+            <!---
+            <li>
+            <div class="post-item">
+                <h3 class="post-link"><a href="page/{{$val.Path}}" class="post-link">{{$val.Title}}</a></h3>
+                <p class="index-timestamp">Created {{$val.Timestamp.Year}}. {{$val.Timestamp.Month}}. {{$val.Timestamp.Day}}</p>
+                <q>{{$val.Summary}}</q>
+            </div>
+            </li>-->
+            {{end}}
+        </ul>
+        
+        {{.Foot.Footer}}
+    </body>
+</html>

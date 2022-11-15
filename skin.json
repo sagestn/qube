@@ -1,6 +1,5 @@
 {
     "name": "Qube",
-    "version": "1.0.0",
     "author": "Ocellaris Dev",
     "summary": "Dark is not metal",
     "paths": {
@@ -9,7 +8,8 @@
         "about": "/skin/about.html",
         "header": "/skin/header.html",
         "footer": "/skin/footer.html",
-        "nav": "/skin/nav.html"
+        "nav": "/skin/nav.html",
+        "tags": "/skin/tags.html"
     },
     "config": {
         "indexnum": 5
