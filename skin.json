@@ -3,13 +3,13 @@
     "author": "SageSTN",
     "summary": "Dark is not metal",
     "paths": {
-        "index": "/skin/index.html",
-        "post": "/skin/post.html",
-        "about": "/skin/about.html",
-        "header": "/skin/header.html",
-        "footer": "/skin/footer.html",
-        "nav": "/skin/nav.html",
-        "tags": "/skin/tags.html"
+        "index": "/skin/pages/index.html",
+        "post": "/skin/pages/post.html",
+        "about": "/skin/pages/about.html",
+        "header": "/skin/pages/header.html",
+        "footer": "/skin/pages/footer.html",
+        "nav": "/skin/pages/nav.html",
+        "tags": "/skin/pages/tags.html"
     },
     "config": {
         "indexnum": 5
