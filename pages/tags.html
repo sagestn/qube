@@ -5,21 +5,25 @@
         {{.Nav.Navbar}}
         
         <div class="post-list">
-        <hr class="post-line" />
-        <h2>Category</h2>
-        <ul>
-            {{range $val := .Indexs}}
-            <!---
-            <li>
-            <div class="post-item">
-                <h3 class="post-link"><a href="page/{{$val.Path}}" class="post-link">{{$val.Title}}</a></h3>
-                <p class="index-timestamp">Created {{$val.Timestamp.Year}}. {{$val.Timestamp.Month}}. {{$val.Timestamp.Day}}</p>
-                <q>{{$val.Summary}}</q>
+        <hr class="post-line"/>
+        <h1 class="tag-pagetitle">Categories</h1>
+        <p class="tag-itemcount">Total {{.TagsNum}} items</p>
+        <br />
+            {{range $name, $val := .Tags}}
+            <div class="tag-block">
+                <h1>{{$name}}</h1>
+                <hr class="tag-line"/>
+                <ul>
+                    {{range $items := $val}}
+                    <li class="tag-item">
+                        <h2 class="post-link"><a href="page/{{$items.Path}}" class="post-link">{{$items.Title}}</a></h2>
+                         <p class="index-timestamp">Created {{$items.Timestamp.Year}}. {{$items.Timestamp.Month}}. {{$items.Timestamp.Day}}</p>
+                    </li> 
+                    {{end}}
+                </ul>
             </div>
-            </li>-->
             {{end}}
-        </ul>
-        
+            
         {{.Foot.Footer}}
     </body>
 </html>
