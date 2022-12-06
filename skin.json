@@ -12,6 +12,7 @@
         "tags": "/skin/pages/tags.html"
     },
     "config": {
-        "indexnum": 5
+        "indexnum": 5,
+        "datetype": "Created 2006. 01. 02."
     }
 }

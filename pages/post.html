@@ -5,9 +5,8 @@
         {{.Nav.Navbar}}
         <div class="post-info">
             <h1 class="post-title">{{.Meta.Title}}</h1>
-
-            <p class="post-timestamp">CREATED - {{.Meta.Timestamp.Year}}/{{.Meta.Timestamp.Month}}/{{.Meta.Timestamp.Day}}</p>
-            <p class="post-tag">CATEGORY - {{.Meta.Tags}}</p>
+            <p class="post-timestamp">CREATED | {{GetTimeStamp .Meta.Timestamp}}</p>
+            <p class="post-tag">CATEGORY | <a href="../tags.html#{{GetTagnameHash .Meta.Tags}}">{{.Meta.Tags}}</a></p>
             <hr class="post-line" />
         </div>
 
