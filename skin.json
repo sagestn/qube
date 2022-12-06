@@ -12,6 +12,7 @@
         "tags": "/skin/pages/tags.html"
     },
     "config": {
-        "indexnum": 5
+        "indexnum": 5,
+        "datetype": ""
     }
 }
