@@ -7,8 +7,16 @@
         <article class="post-section">
             <strong>{{.AuthorInfo}}</strong>
             {{.Content}}
-        </article>
-        
+
+            <br />
+            <hr class="post-line"/>
+            <h3><strong>Build Info</strong></h3>
+            <p>Builded with <a href="https://github.com/sagestn/nemo" target="_blank">NEMO</a> ({{.BuildInfo}})</p> 
+            <p>Skin with <a href="{{.SkinInfo.Repo}}">{{.SkinInfo.Name}}</a> by {{.SkinInfo.Author}}</p>
+            <p><em>"{{.SkinInfo.Summary}}"</em></p>
+        </article>       
+
+
         {{.Foot.Footer}}
     </body>
 </html>
