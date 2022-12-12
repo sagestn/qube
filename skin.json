@@ -2,6 +2,7 @@
     "name": "Qube",
     "author": "SageSTN",
     "summary": "Dark is not metal",
+    "repo" : "https://github.com/sagestn/qube",
     "paths": {
         "index": "/skin/pages/index.html",
         "post": "/skin/pages/post.html",
