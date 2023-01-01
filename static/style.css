@@ -21,12 +21,6 @@
     url('/static/fonts/RIDIBatang.woff2');
 }
 
-@font-face {
-    font-family: 'ChosunilboNM';
-    src: local('ChosunilboNM'),
-    url('/static/fonts/ChosunNm.woff2');
-}
-
 body {
     background-color: #221f1f;
     color: #ffffff;
@@ -66,7 +60,8 @@ footer {
 }
 
 .post-section {
-    font-family: ChosunilboNM, sans-serif;
+    font-family: RIDIBatang, sans-serif;
+    font-weight: 200;
     color: #ffffff;
     margin: auto;
     padding-bottom: 50px;
@@ -74,6 +69,7 @@ footer {
 
 .post-section strong {
     font-family: RIDIBatang;
+    font-weight: 500;
 }
 
 .post-info {
