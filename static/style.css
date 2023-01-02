@@ -16,12 +16,6 @@
 }
 
 @font-face {
-    font-family: 'RIDIBatang';
-    src: local('RIDIBatang'),
-    url('/static/fonts/RIDIBatang.woff2');
-}
-
-@font-face {
     font-family: 'MaruBuriLight';
     src: local('MaruBuriLight'),
     url('./fonts/MaruBuri-Light.woff2') format(woff2)
