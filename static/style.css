@@ -60,6 +60,25 @@ footer {
     font-size: 12px;
 }
 
+.index-item {
+    list-style-type: square;
+}
+
+.index-pglink {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.index-timestamp {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    color: gray;
+}
+
 .post-line {
     margin-top: 15px;
     margin-bottom: 30px;
@@ -102,20 +121,6 @@ footer {
     margin-bottom: 5px;
 }
 
-.index-pglink {
-    display: block;
-    margin: auto;
-    text-align: center;
-}
-
-.index-timestamp {
-    font-size: 15px;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 5px;
-    padding-bottom: 7px;
-    color: gray;
-}
 
 .tag-itemcount {
     font-size: 20px;
